@@ -1,0 +1,21 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0;
+    overflow: hidden;
+}
+
+body.transition-control *{
+    transition: none !important;
+}
+
+.text-content {
+    color: #fff;
+    background-color: #232323;
+    padding: 30px;
+    margin: 0;
+    -webkit-box-shadow: 0 0 30px #000 inset;
+    -moz-box-shadow: 0 0 30px #000 inset;
+    box-shadow: 0 0 30px #000 inset;
+}
