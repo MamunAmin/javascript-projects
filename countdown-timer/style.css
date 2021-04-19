@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("new-year.jpg");
+    background-image: url("snow.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ body {
 h1 {    
     font-family: "Orelega One", sans-serif;
     font-weight: normal;
-    font-size: 4rem;
+    font-size: 5rem;
     margin-top: 5rem;
 }
 
@@ -33,7 +33,7 @@ h1 {
 
 .big-text {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 6rem;
     line-height: 1;
     margin: 1rem 2rem;
 }
