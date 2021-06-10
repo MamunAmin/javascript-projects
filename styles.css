@@ -44,10 +44,33 @@ body.transition-control *{
 .devider {
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    margin-bottom: 30px;
+    margin-left: 4rem;
 }
 
 .container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.image {
+    padding-bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    background-color: #ffa600;
+}
+a:link {
+    text-decoration: none;
 }

@@ -37,7 +37,7 @@ function imageFrameGenerator() {
     //devider for other content
     let devide = document.getElementsByClassName("devider");
     devide[0].style.position = "absolute";
-    devide[0].style.top = imageSize*(imageOnHeight+2) + 10 + "px";
+    devide[0].style.top = imageSize*(imageOnHeight+2) + 30 + "px";
 
     //let image aroung text
     totalImage = 2 * imageOnWidth + 2 * imageOnHeight;
