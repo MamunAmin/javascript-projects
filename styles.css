@@ -1,4 +1,4 @@
-@import url('https://fonts.maateen.me/charu-chandan-3d/font.css');
+@import url('http://fonts.cdnfonts.com/css/armalite-rifle');
 
 body {
     display: flex;
@@ -23,12 +23,12 @@ body.transition-control *{
 
 .text-content {
 
-    font-family: 'CharuChandan3D', sans-serif;
-    font-weight: 900;
-    color: #f84a4a;
+    font-family: 'Armalite Rifle', sans-serif;
+    font-weight: 100;
+    color: #fa6868;
     background-color: #fff;  
     margin: 30px;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .text-content-2 {
@@ -66,14 +66,19 @@ body.transition-control *{
     font-weight: 900;
     font-size: 1.2rem;
     text-align: center;
-    color: #fff;
-    background-color: #ffd000;
+    color: #fcfcfc;
+    background-color: #ffd001f6;
+    box-shadow: 0 0 30px #fd060660 inset;
 }
 a:link {
     text-decoration: none;
 }
 a:hover .title {
-    background-color: rgb(255, 115, 0);
+    background-color: rgb(253, 150, 66);
+    box-shadow: 0 0 30px #fd0606c4 inset;
+}
+a:hover .container {
+    box-shadow: 0 4px 8px  #00000030, 0 6px 20px #00000030;
 }
 footer {
     display: block;
