@@ -11,5 +11,5 @@ The projects are summarized below:
  2. **Border Image Slider** - This app is generated an image border around a text content. It is fully responsive. On resize, image quantity and size will change  dynamically. Two random contiguous image will change position once at a time continuously. -  [\[Live Here\]](https://mamunamin.github.io/javascript-projects/projects/border-image-slider/index.html)
 
 
- **More Projects Coming Soon**
+ **More Projects are Coming Soon**
  
