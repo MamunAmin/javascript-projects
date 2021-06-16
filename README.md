@@ -1,7 +1,8 @@
 # javascript-projects
 
 In this repo I have gathered some of my simple single page  **Vanilla Javascript** projects, inspired by the tech youtuber Florin Pop. Most of them are not responsive for mobile devices. 
-You can see live all of then from - [Here](https://mamunamin.github.io/javascript-projects/)
+You can see live all of them from - [Here](https://mamunamin.github.io/javascript-projects/)
+
 The projects are summarized below:
 
  1. **Countdown Timer** - No matter what year is running now, this app will calculate the remaining time for next new year eve. - [ \[Live Here\]](https://mamunamin.github.io/javascript-projects/projects/countdown-timer/index.html)
