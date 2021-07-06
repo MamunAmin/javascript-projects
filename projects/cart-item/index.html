@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMP Fabrics</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <section class="left">
+            <input class="search" type="text" placeholder="Search products..">
+            <div id="items"></div> <!--Products Render Here-->
+            <div class="bottom">
+                <hr />
+                <div class="bottom-contents">
+                    <p class="bottom-text">Cumilla Sadar | Register 1 | New Sale</p>
+                    <div class="btns">
+                        <button class="btn">Options</button>
+                        <button class="btn">New Sale</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="right">
+            <div class="right-topper">
+                <span class="material-icons">
+                    shopping_cart
+                </span>
+                <p class="cart-text">&nbsp;&nbsp;Your cart items</p>
+            </div>
+            <hr style="margin-top: 4px;" />
+
+            <div id="right-container"></div> <!--Cart Items Render Here-->
+            <div style="margin-bottom: 160px;"></div> <!--For Ignoring Overlap-->
+            <div class="right-bottom">
+                <div class="calc">
+                    <p class="slag"><span style="color: #7872B9;">Discount</span></p>
+                    <p class="rate">BDT 0</p>
+                </div>
+                <div class="calc">
+                    <p class="slag">Subtotal</p>
+                    <p class="rate" id="rate1">BDT 0</p>
+                </div>
+                <div class="calc">
+                    <p class="slag">Tax(0%)</p>
+                    <p class="rate">BDT 0</p>
+                </div>
+                <div class="calc">
+                    <p class="slag">Total</p>
+                    <p class="rate" id="rate2">BDT 0</p>
+                </div>
+                <div class="calc pay-button">
+                    <p class="slag">PAY</p>
+                    <p class="rate" id="rate3">BDT 0</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
