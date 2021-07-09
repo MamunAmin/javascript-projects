@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="image/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class = calculator>
+		<form>
+			<div>
+				<input type="text" name="answer">
+			</div>
+			<div>
+				<input type="button" value=" 7 " onclick="answer.value += '7'" />
+				<input type="button" value=" 8 " onclick="answer.value += '8'" />
+            	<input type="button" value=" 9 " onclick="answer.value += '9'" />
+            	<span class="sign">
+            	<input type="button" value=" / " onclick="answer.value += '/'" />
+            	</span>
+			</div>
+			<div>
+				<input type="button" value=" 4 " onclick="answer.value += '4'" />
+				<input type="button" value=" 5 " onclick="answer.value += '5'" />
+            	<input type="button" value=" 6 " onclick="answer.value += '6'" />
+            	<span class="sign">
+            	<input type="button" value=" X " onclick="answer.value += '*'" />
+            	</span>
+			</div>
+			<div>
+				<input type="button" value=" 1 " onclick="answer.value += '1'" />
+				<input type="button" value=" 2 " onclick="answer.value += '2'" />
+            	<input type="button" value=" 3 " onclick="answer.value += '3'" />
+            	<span class="sign">
+            	<input type="button" value=" - " onclick="answer.value += '-'" />
+            	</span>
+			</div>
+			<div>
+				<input type="button" value=" C " onclick="answer.value = ''" />
+				<input type="button" value=" 0 " onclick="answer.value += '0'" />
+				<span class="equal">
+            	<input type="button" value=" = " onclick="answer.value = eval(answer.value)"/>
+            	</span>
+            	<span class="sign">
+            	<input type="button" value=" + " onclick="answer.value += '+'" />
+            	</span>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

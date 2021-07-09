@@ -14,5 +14,8 @@ The projects are summarized below:
  3. **Cart Item** - This app is generated few product carts. When click on them, they added on right side cart item and a billing system appear. Their is also a delete button to deselect the selected item. -  [\[Live Here\]](https://mamunamin.github.io/javascript-projects/projects/cart-item/index.html)
 
 
+4. **Simple Calculator** - This app is generated a basic calculator, which can perform addition, subtraction, multiplication and division. -  [\[Live Here\]](https://mamunamin.github.io/javascript-projects/projects/simple-calculator/index.html)
+
+
  **More Projects are Coming Soon**
  
